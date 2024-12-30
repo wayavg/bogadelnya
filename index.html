@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Богадельня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
+    </script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body class="blue">
+    <header>
+        <div class="header"> 
+            <div class="logo-blue">
+                <img src="./image/header-logo-blue.svg" alt="logo">
+            </div>
+            <div class="logo-red">
+                <img src="./image/header-logo-red.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <div class="menu-button">
+                    <div><a href="#chapters">главы</a></div>
+                    <div><a href="#active">активности</a></div>
+                    <div><a href="#crossword">сканворд</a></div>
+                    <div><a href="#merch">мерч</a></div>
+                    <div><a href="#form">заявка</a></div>
+                </div>
+                <a class="button"><span class="button-red">краснова</span><span class="button-blue">синева</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="first_screen">
+            <div class="container first">
+                <div class="first_text">
+                    <div>
+                        <div><img src="./image/memory-blue.svg" class="memory-blue" alt="memory"></div>
+                        <div><img src="./image/memory-red.svg" class="memory-red" alt="memory"></div>
+                    </div>
+                    <div>Словарь Богадельня — дом престарелых для русского языка, в котором позаботятся об угасающих единицах и поддержать их жизнедеятельность</div>
+                </div>
+                <a href="#form" class="button">записаться</a>
+            </div>
+        </div>
+
+        <div class="chapters"  id="chapters">
+            <div class="container second">
+                <div class="chapters-text">
+                    <h1>Главы единиц</h1>
+                    <div>— комнаты Богадельни, среди страниц которой обитают устаревшие</div>
+                </div>
+                <div class="chapters-text_container">
+                    <div class="chapters-containers">
+                        <div class="semibold">АРХАИ́ЗМ</div>
+                        <div class="means">— Устаревшее и вышедшее 
+                            из общего употребления слово, оборот речи, грамматическая форма</div>
+                    </div>
+                    <div class="chapters-containers">
+                        <div class="semibold">ИСТОРИ́ЗМ</div>
+                        <div class="means">— слова, обозначающие исчезнувшие реалии, не имеющие синонимов 
+                        в современном языке</div>
+                    </div>
+                    <div class="chapters-containers">
+                        <div class="semibold">посло́вица</div>
+                        <div class="means">— краткое образное законченное изречение, обычно ритмичное 
+                        по форме, с назидательным смыслом</div>
+                    </div>
+                    <div class="chapters-containers">
+                        <div class="semibold">погово́рка</div>
+                        <div class="means">— ходячее, образное выражение, иносказательное, не являющееся цельной фразой, предложением</div>
+                    </div>
+                    <div class="chapters-containers">
+                        <div class="semibold">бу́квица</div>
+                        <div class="means">— крупная, орнаментированная, цветная начальная буква раздела рукописной или печатной книги</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="active container" id="active" >
+            <div class="active_text">
+                <h1>Здесь позаботятся об устаревших</h1>
+                <div>Единицы живут в комфортных для них условиях. Здесь за ними ухаживают, не оставляют без присмотра, организовывают мероприятия, чтобы они не скучали, и поддерживают их жизнедеятельность</div>
+            </div>
+            <div class="active_img1">
+                <div><img src="./image/hobby.png" class="hobby" alt="hobby"></div>
+                <div><img src="./image/plate.png" class="plate" alt="plate"></div>
+                <div><img src="./image/loto.png" class="loto" alt="loto"></div>
+                <div><img src="./image/lunch.png" class="lunch" alt="lunch"></div>
+            </div>
+            <div class="active_img2">
+                <div><img src="./image/plate.png" class="hobby" alt="hobby"></div>
+                <div><img src="./image/hobby.png" class="plate" alt="plate"></div>
+                <div><img src="./image/loto.png" class="loto" alt="loto"></div>
+                <div><img src="./image/lunch.png" class="lunch" alt="lunch"></div>
+            </div>
+        </div>
+
+        <div class="chapters">
+            <div class="crossword container"  id="crossword">
+                <div class="crossword-text">
+                    <h1>Сканворд</h1>
+                    <div>Одной из глав Богадельни служит Сканворд, 
+                        где среди работников словаря спрятались угасающие единицы, которых нужно найти</div>
+                </div>
+                <div class="crossword-puzzle">
+                    КвадробикаЛонгрид<span class="old">Белесый</span>Оверс
+                    айзБлинграфДостатьПриколНабро
+                    с<span class="old">Незнаябродунесуйсявводу</span>Побар
+                    абануИнфоцыганеЛамповыйПокер
+                    фейс<span class="old">Радеть</span>ПриблудаЦиклотекагу
+                    ру<span class="old">Гасник</span>АприориЧопперПассВорк
+                    аутЗожный<span class="old">Хахарь</span>КликерЛайкать
+                    НетворкингПодписка<span class="old">Тятя</span>Скетчбу
+                    кФейкФишка<span class="old">портки</span>ХэштегАккорд
+                </div>
+            </div>
+        </div>
+
+        <div class="mockup container" id="merch">
+            <div class="mockup-text">
+                <h1>Носители фирменного стиля</h1>
+            </div>
+            <div class="slider">
+                <div><img src="./image/mockup-letterhead.png"></div>
+                <div><img src="./image/mockup-booklet.png"></div>
+                <div><img src="./image/mockup-notebook.png"></div>
+                <div><img src="./image/mockup-card.png"></div>
+                <div><img src="./image/mockup-bag.png"></div>
+            </div>
+        </div>
+
+        <div class="last" id="form">
+            <div class="form container">
+                <div>
+                    <div class="form-infa">
+                        <div>
+                            <h2>E-mail</h2>
+                            <div>golubinaya@pochta.at
+                            </div>
+                        </div>
+                        <div>
+                            <h2>Телефон</h2>
+                            <div>+0 (000) 18-06-860</div>
+                        </div>
+                        <div>
+                            <h2>Адрес</h2>
+                            <div>сл. Богадельня, 
+                                гл. Предусловие, стр. 862
+                                </div>
+                        </div>
+                    </div>
+                    <div class="form-rightpart">
+                        <div class="form-form">
+                            <h1>Подать заявку в словарь</h1>
+                            <form action="" method="post">
+                                <div><input type="text" placeholder="Принадлежность"></div>
+                                <div><input type="text" placeholder="Ваше имя"></div>
+                                <div><input type="number" placeholder="Номер"></div>
+                            </form>
+                        </div>
+                        <a class="button">записаться</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="chapters">
+        <div class="footer container">
+            <div class="footer-logo">
+                <div><img src="./image/footer-logo-hse.svg" class="logo-hse" alt="hse logo"></div>
+                <div><img src="./image/footer-cross.svg" class="cross" alt="cross"></div>
+                <div><img src="./image/footer-logo-bogodelnya.svg" class="logo-bogodelnya" alt="logo-bogodelnya"></div>
+            </div>
+            <div class="footer-text">Устаревшие слова — слова, которые перестали активно использоваться в повседневной речевой практике носителей языка и о которых важно помнить</div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
